@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policies - All Projects</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 50px;
+        }
+        .header h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+        .header p {
+            font-size: 18px;
+            opacity: 0.9;
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        .project-card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+        .project-card:hover {
+            transform: translateY(-5px);
+        }
+        .project-icon {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+        .project-name {
+            font-size: 24px;
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .project-desc {
+            color: #666;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+        .project-link {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background 0.3s ease;
+        }
+        .project-link:hover {
+            background: #5568d3;
+        }
+        .footer {
+            text-align: center;
+            color: white;
+            margin-top: 60px;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📄 Privacy Policies</h1>
+            <p>Legal documents for all projects by Jansen Zhang</p>
+        </div>
+        
+        <div class="projects">
+            <div class="project-card">
+                <div class="project-icon">🛡️</div>
+                <div class="project-name">Dopamine Hunter</div>
+                <div class="project-desc">
+                    Chrome extension that helps break free from social media addiction with AI-powered interventions.
+                </div>
+                <a href="dopamine-hunter/privacy-policy.html" class="project-link">View Privacy Policy →</a>
+            </div>
+            
+            <!-- Add more projects here -->
+            <!-- 
+            <div class="project-card">
+                <div class="project-icon">🚀</div>
+                <div class="project-name">Your Next Project</div>
+                <div class="project-desc">
+                    Description of your next project...
+                </div>
+                <a href="project-name/privacy-policy.html" class="project-link">View Privacy Policy →</a>
+            </div>
+            -->
+        </div>
+        
+        <div class="footer">
+            <p>All projects developed by Jansen Zhang</p>
+            <p style="margin-top: 10px;">
+                <a href="https://ko-fi.com/jansenzhang" style="color: white;">☕ Support My Work</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
